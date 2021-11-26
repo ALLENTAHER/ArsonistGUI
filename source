@@ -1,0 +1,411 @@
+-- Made By Allen
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("ImageLabel")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_Roundify_12px = Instance.new("ImageLabel")
+local OwlHub = Instance.new("TextButton")
+local TextButton_Roundify_12px = Instance.new("ImageLabel")
+local DarkHub = Instance.new("TextButton")
+local TextButton_Roundify_12px_2 = Instance.new("ImageLabel")
+local InfiniteYeild = Instance.new("TextButton")
+local TextButton_Roundify_12px_3 = Instance.new("ImageLabel")
+local FateAdmin = Instance.new("TextButton")
+local TextButton_Roundify_12px_4 = Instance.new("ImageLabel")
+local MM2Script = Instance.new("TextButton")
+local TextButton_Roundify_12px_5 = Instance.new("ImageLabel")
+local BedWarsScript = Instance.new("TextButton")
+local TextButton_Roundify_12px_6 = Instance.new("ImageLabel")
+local FeYeetGui = Instance.new("TextButton")
+local TextButton_Roundify_12px_7 = Instance.new("ImageLabel")
+local SpeedEditor = Instance.new("TextButton")
+local TextButton_Roundify_12px_8 = Instance.new("ImageLabel")
+local GrabKnifeClient = Instance.new("TextButton")
+local TextButton_Roundify_12px_9 = Instance.new("ImageLabel")
+local X = Instance.new("TextButton")
+local openmain = Instance.new("Frame")
+local open = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+main.BackgroundTransparency = 1.000
+main.Position = UDim2.new(0.249246687, 0, 0.206680581, 0)
+main.Size = UDim2.new(0, 582, 0, 332)
+main.Visible = false
+main.Image = "rbxassetid://3570695787"
+main.ImageColor3 = Color3.fromRGB(59, 59, 59)
+main.ScaleType = Enum.ScaleType.Slice
+main.SliceCenter = Rect.new(100, 100, 100, 100)
+main.SliceScale = 0.120
+main.Active = true
+main.Draggable = true
+
+TextLabel.Parent = main
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(-0.162699133, 0, -0.0210843384, 0)
+TextLabel.Size = UDim2.new(0, 770, 0, 52)
+TextLabel.ZIndex = 3
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Arsonist GUI V 1.3"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+TextLabel_Roundify_12px.Name = "TextLabel_Roundify_12px"
+TextLabel_Roundify_12px.Parent = TextLabel
+TextLabel_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_Roundify_12px.BackgroundTransparency = 1.000
+TextLabel_Roundify_12px.Position = UDim2.new(0.49545455, 0, 0.580000043, 0)
+TextLabel_Roundify_12px.Size = UDim2.new(0.625723422, 0, 0.839999855, 0)
+TextLabel_Roundify_12px.ZIndex = 2
+TextLabel_Roundify_12px.Image = "rbxassetid://3570695787"
+TextLabel_Roundify_12px.ImageColor3 = Color3.fromRGB(95, 95, 95)
+TextLabel_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+TextLabel_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+TextLabel_Roundify_12px.SliceScale = 0.120
+
+OwlHub.Name = "OwlHub"
+OwlHub.Parent = main
+OwlHub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OwlHub.BackgroundTransparency = 1.000
+OwlHub.BorderSizePixel = 0
+OwlHub.Position = UDim2.new(0, 0, 0.333333343, 0)
+OwlHub.Size = UDim2.new(0, 130, 0, 37)
+OwlHub.ZIndex = 3
+OwlHub.Font = Enum.Font.SciFi
+OwlHub.Text = "Owl Hub"
+OwlHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+OwlHub.TextScaled = true
+OwlHub.TextSize = 14.000
+OwlHub.TextWrapped = true
+OwlHub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ZinityDrops/OwlHubLink/master/OwlHubBack.lua"))();
+end)
+
+TextButton_Roundify_12px.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px.Parent = OwlHub
+TextButton_Roundify_12px.Active = true
+TextButton_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px.BackgroundTransparency = 1.000
+TextButton_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px.Selectable = true
+TextButton_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px.ImageColor3 = Color3.fromRGB(175, 175, 175)
+TextButton_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px.SliceScale = 0.120
+
+DarkHub.Name = "DarkHub"
+DarkHub.Parent = main
+DarkHub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DarkHub.BackgroundTransparency = 1.000
+DarkHub.BorderSizePixel = 0
+DarkHub.Position = UDim2.new(0.776182473, 0, 0.333333343, 0)
+DarkHub.Size = UDim2.new(0, 130, 0, 37)
+DarkHub.ZIndex = 3
+DarkHub.Font = Enum.Font.SciFi
+DarkHub.Text = "Dark Hub"
+DarkHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+DarkHub.TextScaled = true
+DarkHub.TextSize = 14.000
+DarkHub.TextWrapped = true
+DarkHub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init'), true))()
+end)
+
+TextButton_Roundify_12px_2.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_2.Parent = DarkHub
+TextButton_Roundify_12px_2.Active = true
+TextButton_Roundify_12px_2.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_2.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_2.Selectable = true
+TextButton_Roundify_12px_2.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_2.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_2.ImageColor3 = Color3.fromRGB(175, 175, 175)
+TextButton_Roundify_12px_2.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_2.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_2.SliceScale = 0.120
+
+InfiniteYeild.Name = "InfiniteYeild"
+InfiniteYeild.Parent = main
+InfiniteYeild.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+InfiniteYeild.BackgroundTransparency = 1.000
+InfiniteYeild.BorderSizePixel = 0
+InfiniteYeild.Position = UDim2.new(0, 0, 0.619477928, 0)
+InfiniteYeild.Size = UDim2.new(0, 130, 0, 37)
+InfiniteYeild.ZIndex = 3
+InfiniteYeild.Font = Enum.Font.SciFi
+InfiniteYeild.Text = "Infinite Yeild"
+InfiniteYeild.TextColor3 = Color3.fromRGB(0, 0, 0)
+InfiniteYeild.TextScaled = true
+InfiniteYeild.TextSize = 14.000
+InfiniteYeild.TextWrapped = true
+InfiniteYeild.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+TextButton_Roundify_12px_3.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_3.Parent = InfiniteYeild
+TextButton_Roundify_12px_3.Active = true
+TextButton_Roundify_12px_3.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_3.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_3.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_3.Selectable = true
+TextButton_Roundify_12px_3.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_3.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_3.ImageColor3 = Color3.fromRGB(175, 175, 175)
+TextButton_Roundify_12px_3.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_3.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_3.SliceScale = 0.120
+
+FateAdmin.Name = "FateAdmin"
+FateAdmin.Parent = main
+FateAdmin.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FateAdmin.BackgroundTransparency = 1.000
+FateAdmin.BorderSizePixel = 0
+FateAdmin.Position = UDim2.new(0.774914086, 0, 0.619477928, 0)
+FateAdmin.Size = UDim2.new(0, 130, 0, 37)
+FateAdmin.ZIndex = 3
+FateAdmin.Font = Enum.Font.SciFi
+FateAdmin.Text = "Fates Admin"
+FateAdmin.TextColor3 = Color3.fromRGB(0, 0, 0)
+FateAdmin.TextScaled = true
+FateAdmin.TextSize = 14.000
+FateAdmin.TextWrapped = true
+FateAdmin.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
+end)
+
+TextButton_Roundify_12px_4.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_4.Parent = FateAdmin
+TextButton_Roundify_12px_4.Active = true
+TextButton_Roundify_12px_4.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_4.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_4.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_4.Selectable = true
+TextButton_Roundify_12px_4.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_4.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_4.ImageColor3 = Color3.fromRGB(175, 175, 175)
+TextButton_Roundify_12px_4.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_4.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_4.SliceScale = 0.120
+
+MM2Script.Name = "MM2Script"
+MM2Script.Parent = main
+MM2Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MM2Script.BackgroundTransparency = 1.000
+MM2Script.BorderSizePixel = 0
+MM2Script.Position = UDim2.new(0.774914086, 0, 0.854417682, 0)
+MM2Script.Size = UDim2.new(0, 130, 0, 37)
+MM2Script.ZIndex = 3
+MM2Script.Font = Enum.Font.SciFi
+MM2Script.Text = "MM2 Script"
+MM2Script.TextColor3 = Color3.fromRGB(0, 0, 0)
+MM2Script.TextScaled = true
+MM2Script.TextSize = 14.000
+MM2Script.TextWrapped = true
+MM2Script.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Doggo-cryto/EclipseMM2/master/Script", true))()
+end)
+
+TextButton_Roundify_12px_5.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_5.Parent = MM2Script
+TextButton_Roundify_12px_5.Active = true
+TextButton_Roundify_12px_5.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_5.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_5.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_5.Selectable = true
+TextButton_Roundify_12px_5.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_5.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_5.ImageColor3 = Color3.fromRGB(175, 175, 175)
+TextButton_Roundify_12px_5.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_5.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_5.SliceScale = 0.120
+
+BedWarsScript.Name = "BedWarsScript"
+BedWarsScript.Parent = main
+BedWarsScript.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BedWarsScript.BackgroundTransparency = 1.000
+BedWarsScript.BorderSizePixel = 0
+BedWarsScript.Position = UDim2.new(0, 0, 0.851405621, 0)
+BedWarsScript.Size = UDim2.new(0, 130, 0, 37)
+BedWarsScript.ZIndex = 3
+BedWarsScript.Font = Enum.Font.SciFi
+BedWarsScript.Text = "BedWars Script"
+BedWarsScript.TextColor3 = Color3.fromRGB(0, 0, 0)
+BedWarsScript.TextScaled = true
+BedWarsScript.TextSize = 14.000
+BedWarsScript.TextWrapped = true
+BedWarsScript.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+end)
+
+TextButton_Roundify_12px_6.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_6.Parent = BedWarsScript
+TextButton_Roundify_12px_6.Active = true
+TextButton_Roundify_12px_6.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_6.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_6.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_6.Selectable = true
+TextButton_Roundify_12px_6.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_6.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_6.ImageColor3 = Color3.fromRGB(175, 175, 175)
+TextButton_Roundify_12px_6.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_6.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_6.SliceScale = 0.120
+
+FeYeetGui.Name = "FeYeetGui"
+FeYeetGui.Parent = main
+FeYeetGui.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FeYeetGui.BackgroundTransparency = 1.000
+FeYeetGui.BorderSizePixel = 0
+FeYeetGui.Position = UDim2.new(0.408934712, 0, 0.333333343, 0)
+FeYeetGui.Size = UDim2.new(0, 130, 0, 37)
+FeYeetGui.ZIndex = 3
+FeYeetGui.Font = Enum.Font.SciFi
+FeYeetGui.Text = "Yeet Gui"
+FeYeetGui.TextColor3 = Color3.fromRGB(0, 0, 0)
+FeYeetGui.TextScaled = true
+FeYeetGui.TextSize = 14.000
+FeYeetGui.TextWrapped = true
+FeYeetGui.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/iMUKUbXD'))()
+end)
+
+TextButton_Roundify_12px_7.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_7.Parent = FeYeetGui
+TextButton_Roundify_12px_7.Active = true
+TextButton_Roundify_12px_7.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_7.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_7.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_7.Selectable = true
+TextButton_Roundify_12px_7.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_7.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_7.ImageColor3 = Color3.fromRGB(175, 175, 175)
+TextButton_Roundify_12px_7.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_7.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_7.SliceScale = 0.120
+
+SpeedEditor.Name = "SpeedEditor"
+SpeedEditor.Parent = main
+SpeedEditor.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SpeedEditor.BackgroundTransparency = 1.000
+SpeedEditor.BorderSizePixel = 0
+SpeedEditor.Position = UDim2.new(0.408934712, 0, 0.619477928, 0)
+SpeedEditor.Size = UDim2.new(0, 130, 0, 37)
+SpeedEditor.ZIndex = 3
+SpeedEditor.Font = Enum.Font.SciFi
+SpeedEditor.Text = "Speed Editor"
+SpeedEditor.TextColor3 = Color3.fromRGB(0, 0, 0)
+SpeedEditor.TextScaled = true
+SpeedEditor.TextSize = 14.000
+SpeedEditor.TextWrapped = true
+SpeedEditor.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/FEHPiv27'))()
+end)
+
+TextButton_Roundify_12px_8.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_8.Parent = SpeedEditor
+TextButton_Roundify_12px_8.Active = true
+TextButton_Roundify_12px_8.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_8.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_8.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_8.Selectable = true
+TextButton_Roundify_12px_8.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_8.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_8.ImageColor3 = Color3.fromRGB(175, 175, 175)
+TextButton_Roundify_12px_8.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_8.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_8.SliceScale = 0.120
+
+GrabKnifeClient.Name = "GrabKnifeClient"
+GrabKnifeClient.Parent = main
+GrabKnifeClient.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GrabKnifeClient.BackgroundTransparency = 1.000
+GrabKnifeClient.BorderSizePixel = 0
+GrabKnifeClient.Position = UDim2.new(0.408934712, 0, 0.854417682, 0)
+GrabKnifeClient.Size = UDim2.new(0, 130, 0, 37)
+GrabKnifeClient.ZIndex = 3
+GrabKnifeClient.Font = Enum.Font.SciFi
+GrabKnifeClient.Text = "Grab Knife V4 (Client)"
+GrabKnifeClient.TextColor3 = Color3.fromRGB(0, 0, 0)
+GrabKnifeClient.TextScaled = true
+GrabKnifeClient.TextSize = 14.000
+GrabKnifeClient.TextWrapped = true
+GrabKnifeClient.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/frHvA27v'))()
+end)
+
+TextButton_Roundify_12px_9.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_9.Parent = GrabKnifeClient
+TextButton_Roundify_12px_9.Active = true
+TextButton_Roundify_12px_9.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_9.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_9.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_9.Selectable = true
+TextButton_Roundify_12px_9.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_9.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_9.ImageColor3 = Color3.fromRGB(175, 175, 175)
+TextButton_Roundify_12px_9.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_9.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_9.SliceScale = 0.120
+
+X.Name = "X"
+X.Parent = main
+X.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+X.BorderSizePixel = 0
+X.Position = UDim2.new(0.924398661, 0, 0.0240963846, 0)
+X.Size = UDim2.new(0, 35, 0, 23)
+X.Font = Enum.Font.SourceSans
+X.Text = "X"
+X.TextColor3 = Color3.fromRGB(0, 0, 0)
+X.TextScaled = true
+X.TextSize = 14.000
+X.TextWrapped = true
+X.MouseButton1Down:connect(function()
+	main.Visible = false
+	openmain.Visible = true
+end)
+
+openmain.Name = "openmain"
+openmain.Parent = ScreenGui
+openmain.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+openmain.BorderSizePixel = 0
+openmain.Position = UDim2.new(0, 0, 0.572025061, 0)
+openmain.Size = UDim2.new(0, 100, 0, 24)
+openmain.Active = true
+openmain.Draggable = false
+
+open.Name = "open"
+open.Parent = openmain
+open.BackgroundColor3 = Color3.fromRGB(184, 184, 184)
+open.Size = UDim2.new(0, 100, 0, 30)
+open.Font = Enum.Font.SourceSans
+open.Text = "open"
+open.TextColor3 = Color3.fromRGB(0, 0, 0)
+open.TextScaled = true
+open.TextSize = 14.000
+open.TextWrapped = true
+open.MouseButton1Down:connect(function()
+	openmain.Visible = false
+	main.Visible = true
+end)
